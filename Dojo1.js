@@ -49,7 +49,7 @@ const pessoa1 = {
   }
 };
 
-pessoa.falar();
+pessoa1.falar();
 
 //Código 2
 
@@ -60,7 +60,7 @@ const pessoa2 = {
   }
 };
 
-pessoa.falar();
+pessoa2.falar();
 
 // Execute os dois exemplos e responda:
 

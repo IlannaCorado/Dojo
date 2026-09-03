@@ -1,8 +1,8 @@
 //Nome: Ilanna Corado    RA: 2649330
 //Disciplina: Back-end
-//Professora: 
+//Professora: Juliana Costa Silva
 
-//Atividade - 1
+//Atividade 1 - Dojo
 
 
 //registro de usuarios do sistema
@@ -43,6 +43,7 @@ const usuariosAtivos = usuarios.filter(({ativo}) => ativo);
 
 
 
+
 // Questão 3 - Liste apenas usuários com idade >= 18.
 const usuarioMaior = usuarios.filter(({idade}) => idade >= 18);
 
@@ -66,6 +67,7 @@ comprasUsuarios.forEach(user => {
 });
 
 console.log(`Quem fez a maior compra foi ${maiorNome} no valor de: ${maiorCompra}`)
+
 
 
 
@@ -109,7 +111,3 @@ const gerarRelatorio = () => {
 };
 
 console.log(gerarRelatorio());
-
-
-
-
